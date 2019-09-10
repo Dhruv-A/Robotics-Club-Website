@@ -32,9 +32,6 @@ class Home extends Component {
         <Header />
 
         <section class="home_section home_section_bg align-items-centre">
-//        <input type="text" onChange={this.updateText} />
-//        <button onClick={() => this.props.setName(this.state.name)}>Click me</button>
-//        <div>Name: {this.props.name}</div>
         </section>
 
         <section class="about_section section_padding">
