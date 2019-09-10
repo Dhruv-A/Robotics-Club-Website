@@ -1,0 +1,28 @@
+$font-family: 'Proxima Nova', "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+$font-height: 1.5;
+
+//new stuff that i have used from other thing
+
+.home_section {
+  position: relative;
+  z-index: 1;
+  height: 900px;
+}
+
+.home_section_bg {
+  background-image: url("../static/city.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about_section {
+  position: relative;
+  z-index: 99;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.section_padding {
+  padding: 140px 0px;
+}
