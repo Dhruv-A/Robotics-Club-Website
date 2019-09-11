@@ -3,12 +3,23 @@ $font-height: 1.5;
 
 //new stuff that i have used from other thing
 .container {
-  padding: 40px;
+  padding: 20px;
+}
+
+.header {
+  background-color: red;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.header_text {
+  font-size: 25px;
 }
 
 .login_button {
   text-align: right;
-  margin-left: 950px;
+  font-size: 25px;
+  margin-left: 790px;
 }
 
 .home_section {
@@ -59,7 +70,7 @@ $font-height: 1.5;
 
 .about_title {
   color: black;
-  font-size: 60px;
+  font-size: 50px;
   padding: 20px;
 }
 
@@ -67,6 +78,14 @@ $font-height: 1.5;
   color: black;
   font-size: 20px;
   padding: 40px;
+}
+
+.about_bg {
+  background-image: url("../static/makerspaceVert.JPG");
+  width: 100px;
+  height: 400px;
+  padding: 400px;
+  margin-left: 500px;
 }
 
 .section_padding {

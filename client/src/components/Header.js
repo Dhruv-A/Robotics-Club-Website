@@ -5,9 +5,13 @@ class Header extends Component {
   render() {
   	return (
       <div>
-      	<Link to="/">Home</Link> | <Link to="/about">About</Link>| <Link to="/projects">Projects</Link>| <Link to="/contact">Contact</Link>
-        <Link to="/login" class="login_button">Login</Link>
-      	<hr />
+        <div class="header">
+        	<Link to="/" class="header_text">Home</Link> |
+          <Link to="/about" class="header_text">About</Link>|
+          <Link to="/projects" class="header_text">Projects</Link>|
+          <Link to="/contact" class="header_text">Contact</Link>
+          <Link to="/login" class="login_button">Login</Link>
+        </div>
       </div>
     );
   }

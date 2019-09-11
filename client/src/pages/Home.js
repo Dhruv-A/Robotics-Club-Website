@@ -30,7 +30,6 @@ class Home extends Component {
       <div>
 
         <Header />
-        //Home Section
         <section class="home_section home_section_bg align-items-centre">
           <h class="home_title">Robotics Club</h>
           <br></br>
@@ -45,7 +44,12 @@ class Home extends Component {
             <h class="about_title">SBHS's only IT community</h>
             <br></br>
             <h class="about_subtitle">A hub for all things tech related</h>
+            <img src="../static/makerspaceVert.JPG" alt="makerspaceVert"
+            width="500" height="600"></img>
 
+          </div>
+
+          <div>
           </div>
 
         </section>
