@@ -44,12 +44,10 @@ class Home extends Component {
             <h class="about_title">SBHS's only IT community</h>
             <br></br>
             <h class="about_subtitle">A hub for all things tech related</h>
-            <img src="../static/makerspaceVert.JPG" alt="makerspaceVert"
-            width="500" height="600"></img>
 
           </div>
 
-          <div>
+          <div class="about_section_img about_bg align-items-centre">
           </div>
 
         </section>

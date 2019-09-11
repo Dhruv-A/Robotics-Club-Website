@@ -18,7 +18,10 @@ class Login extends Component {
     return (
       <div>
         <Header />
-        <div>Name: {this.props.name}</div>
+        <div class="login_section login_bg">
+          <div class="login_box">
+          </div>
+        </div>
       </div>
     );
   }
