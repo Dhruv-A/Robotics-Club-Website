@@ -21,17 +21,19 @@ class Login extends Component {
         <div class="login_section login_bg">
           <div class="login_box">
             <h class="login_title"><b>Login</b></h>
+            <br></br>
+            <h class="login_subtitle">SBHS Robotics Club</h>
+            <br></br><br></br>
 
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required></input>
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" onChange={this.updateText} required></input>
+            <br></br><br></br>
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" onChange={this.updateText} required></input>
+            <br></br><br></br><br></br>
+            <button type="submit" class="login_button">Login</button>
 
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required></input>
 
-            <button type="submit">Login</button>
-            <label>
-              <input type="checkbox" checked="checked" name="remember"> Remember me</input>
-            </label>
           </div>
         </div>
       </div>

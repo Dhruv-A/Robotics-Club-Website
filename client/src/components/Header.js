@@ -10,7 +10,7 @@ class Header extends Component {
           <Link to="/about" class="header_text">About</Link>|
           <Link to="/projects" class="header_text">Projects</Link>|
           <Link to="/contact" class="header_text">Contact</Link>
-          <Link to="/login" class="login_button">Login</Link>
+          <Link to="/login" class="home_login_button">Login</Link>
         </div>
       </div>
     );
