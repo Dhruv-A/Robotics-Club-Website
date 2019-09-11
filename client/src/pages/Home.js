@@ -32,9 +32,15 @@ class Home extends Component {
         <Header />
 
         <section class="home_section home_section_bg align-items-centre">
+          <h class="home_title">Robotics Club</h>
+          <br></br>
+          <h class="home_subtitle">SBHS</h>
         </section>
 
         <section class="about_section section_padding">
+          <div class="container">
+            <h class="home_title">About us</h>
+          </div>
 
         </section>
       </div>
