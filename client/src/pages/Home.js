@@ -30,16 +30,35 @@ class Home extends Component {
       <div>
 
         <Header />
-
+        //Home Section
         <section class="home_section home_section_bg align-items-centre">
           <h class="home_title">Robotics Club</h>
           <br></br>
           <h class="home_subtitle">SBHS</h>
         </section>
 
-        <section class="about_section section_padding">
+        //About Section
+        <section class="about_section">
           <div class="container">
             <h class="about_title">About us</h>
+          </div>
+
+        </section>
+
+        //Projects Section
+        <section class="about_section">
+          <div class="container">
+            <h class="about_title">Our Projects</h>
+          </div>
+
+        </section>
+
+        //Contact Us
+        <section class="about_section">
+          <div class="container">
+            <h class="about_title">Contact Us</h>
+            //honestly i dont know if we should have a contact us section here
+            //we should be okay to just have like contact info on footer and link to contact page
           </div>
 
         </section>
