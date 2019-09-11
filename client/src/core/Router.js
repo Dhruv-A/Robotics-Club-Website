@@ -8,6 +8,7 @@ import {
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
+import Projects from '../pages/Projects';
 
 class Router extends Component {
   render() {
@@ -33,6 +34,13 @@ class Router extends Component {
             path="/contact"
             render={props => (
               <Contact {...props} />
+            )}
+          />
+          <Route
+            exact
+            path="/projects"
+            render={props => (
+              <Projects {...props} />
             )}
           />
         </Switch>
