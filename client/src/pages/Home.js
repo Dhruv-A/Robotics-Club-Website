@@ -40,7 +40,12 @@ class Home extends Component {
         //About Section
         <section class="about_section">
           <div class="container">
-            <h class="about_title">About us</h>
+            <h class="about_smalltitle">About us</h>
+            <br></br>
+            <h class="about_title">SBHS's only IT community</h>
+            <br></br>
+            <h class="about_subtitle">A hub for all things tech related</h>
+
           </div>
 
         </section>

@@ -46,10 +46,22 @@ $font-height: 1.5;
   background-position: left;
 }
 
-.about_title {
+.about_smalltitle {
   color: blue;
   font-size: 20px;
   padding: 20px;
+}
+
+.about_title {
+  color: black;
+  font-size: 60px;
+  padding: 20px;
+}
+
+.about_subtitle {
+  color: black;
+  font-size: 20px;
+  padding: 40px;
 }
 
 .section_padding {
