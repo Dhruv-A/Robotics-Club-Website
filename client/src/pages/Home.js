@@ -39,7 +39,7 @@ class Home extends Component {
 
         <section class="about_section section_padding">
           <div class="container">
-            <h class="home_title">About us</h>
+            <h class="about_title">About us</h>
           </div>
 
         </section>

@@ -4,7 +4,6 @@ $font-height: 1.5;
 //new stuff that i have used from other thing
 .container {
   padding: 40px;
-  background-color: blue;
 }
 
 .home_section {
@@ -16,19 +15,17 @@ $font-height: 1.5;
 .home_title {
   color: white;
   font-size: 80px;
-  padding: 20px;
-  margin-top: 80px;
+  padding: 5px;
+  background-color: #0099FF;
   margin-left: 20px;
-  margin-bottom: 80px;
-  margin-right: 0px;
 
 }
 
 .home_subtitle {
   color: white;
   font-size: 60px;
-  padding: 20px;
-  margin-top: 80px;
+  padding: 5px;
+  background-color: #0033FF;
   margin-left: 20px;
   margin-bottom: 80px;
   margin-right: 0px;
@@ -47,6 +44,12 @@ $font-height: 1.5;
   z-index: 99;
   background-repeat: no-repeat;
   background-position: left;
+}
+
+.about_title {
+  color: blue;
+  font-size: 20px;
+  padding: 20px;
 }
 
 .section_padding {
