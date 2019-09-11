@@ -38,22 +38,27 @@ class Home extends Component {
 
         //About Section
         <section class="about_section">
-          <div class="container">
-            <h class="about_smalltitle">About us</h>
+          <div class="about_section_img about_bg align-items-centre">
+          </div>
+          <div class="about_container">
+            <h class="about_smalltitle">About us</h> <br></br>
             <br></br>
             <h class="about_title">SBHS's only IT community</h>
             <br></br>
             <h class="about_subtitle">A hub for all things tech related</h>
+            <br></br><br></br><br></br>
+            <button>About us</button>
+            <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
           </div>
 
-          <div class="about_section_img about_bg align-items-centre">
-          </div>
+
+          <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
         </section>
-
+        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         //Projects Section
-        <section class="about_section">
+        <section>
           <div class="container">
             <h class="about_title">Our Projects</h>
           </div>

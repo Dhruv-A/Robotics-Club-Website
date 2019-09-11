@@ -3,7 +3,7 @@ $font-height: 1.5;
 
 //new stuff that i have used from other thing
 .container {
-  padding: 20px;
+  padding: 10px;
 }
 
 .test_div {
@@ -64,12 +64,14 @@ $font-height: 1.5;
   z-index: 99;
   background-repeat: no-repeat;
   background-position: left;
+  padding: 60px;
 }
 
 .about_section_img {
   position: relative;
   z-index: 1;
   height: 100px;
+  float: right;
 }
 
 .about_smalltitle {
@@ -80,7 +82,7 @@ $font-height: 1.5;
 
 .about_title {
   color: black;
-  font-size: 50px;
+  font-size: 40px;
   padding: 20px;
 }
 
@@ -90,12 +92,18 @@ $font-height: 1.5;
   padding: 40px;
 }
 
+.about_container {
+  margin-top: 60px;
+  padding: 10px;
+  float: left;
+}
+
 .about_bg {
   background-image: url("../static/makerspaceVert.JPG");
-  width: 400px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   padding: 100px;
-  margin-left: 600px;
+  margin-left: 000px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
