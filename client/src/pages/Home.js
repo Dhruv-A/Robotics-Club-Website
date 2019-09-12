@@ -67,23 +67,23 @@ class Home extends Component {
           <div class="container">
             <div class="projects_container_game">
               <div>
-                <h class="projects_container_title"><b>Game Development</b></h>
-                <h class="projects_container_subtitle">Learn to create games using Unity or Game Maker Studio
+                <h class="projects_container_title"><b>Game Development</b></h><br></br>
+                <h class="projects_container_subtitle">Learn to create games using Unity or Game Maker Studio.</h>
               </div>
               <div class="projects_game_bg">
               </div>
             </div>
             <div class="projects_container_python">
               <div>
-                <h class="projects_container_title"><b>Intro to Python</b></h>
-                <h class="projects_container_subtitle">Learn the basics of programming with Python!</h>
+                <h class="projects_container_title"><b>Intro to Python</b></h><br></br>
+                <h class="projects_container_subtitle">Learn the basics of computer programming with Python!</h>
               </div>
               <div class="projects_python_bg">
               </div>
             </div>
             <div class="projects_container_web">
               <div>
-                <h class="projects_container_title"><b>Intro to Web Dev</b></h>
+                <h class="projects_container_title"><b>Intro to Web Dev</b></h><br></br>
                 <h class="projects_container_subtitle">Learn to create you own websites using HTML, CSS and JS!</h>
               </div>
               <div class="projects_web_bg">
