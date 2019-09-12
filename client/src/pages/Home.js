@@ -59,20 +59,26 @@ class Home extends Component {
 
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-        <br></br><br></br>
+        <br></br><br></br><br></br><br></br><br></br>
         <hr></hr>
 
         <section class="projects_section">
-        <h class="about_title">Our Projects</h>
+        <h class="projects_title"><b>Our Classes</b></h>
+        <br></br><br></br><br></br>
           <div class="container">
-            <div class="projects_container_game">
-              <div>
-                <h class="projects_container_title"><b>Game Development</b></h><br></br>
-                <h class="projects_container_subtitle">Learn to create games using Unity or Game Maker Studio.</h>
+
+          <a href="/projects">
+              <div class="projects_container_game">
+                <div>
+                  <h class="projects_container_title"><b>Game Development</b></h><br></br>
+                  <h class="projects_container_subtitle">Learn to create games using Unity or Game Maker Studio.</h>
+                </div>
+                <div class="projects_game_bg">
+                </div>
               </div>
-              <div class="projects_game_bg">
-              </div>
-            </div>
+            </a>
+
+          <a href="/projects">
             <div class="projects_container_python">
               <div>
                 <h class="projects_container_title"><b>Intro to Python</b></h><br></br>
@@ -81,6 +87,9 @@ class Home extends Component {
               <div class="projects_python_bg">
               </div>
             </div>
+          </a>
+
+          <a href="/projects">
             <div class="projects_container_web">
               <div>
                 <h class="projects_container_title"><b>Intro to Web Dev</b></h><br></br>
@@ -89,6 +98,8 @@ class Home extends Component {
               <div class="projects_web_bg">
               </div>
             </div>
+          </a>
+
           </div>
 
         </section>
