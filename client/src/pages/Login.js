@@ -6,6 +6,7 @@ import { connect } from 'react-redux';
 import * as User from '../actions/User';
 
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 import './Home.scss';
 
@@ -17,8 +18,9 @@ class Login extends Component {
   render() {
     return (
       <div>
-        <Header />
         <div class="login_section login_bg">
+          <Header />
+          <br></br>
           <div class="login_box">
             <h class="login_title"><b>Login</b></h>
             <br></br>
@@ -36,6 +38,7 @@ class Login extends Component {
 
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
