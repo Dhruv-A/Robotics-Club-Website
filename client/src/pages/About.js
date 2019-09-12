@@ -19,7 +19,6 @@ class About extends Component {
     return (
       <div>
         <Header />
-        <div>Name: {this.props.name}</div>
         <Footer />
       </div>
     );
