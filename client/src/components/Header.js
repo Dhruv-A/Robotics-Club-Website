@@ -6,11 +6,16 @@ class Header extends Component {
   	return (
       <div>
         <div class="header">
-        	<Link to="/" class="header_text">Home</Link> |
-          <Link to="/about" class="header_text">About</Link>|
-          <Link to="/projects" class="header_text">Projects</Link>|
-          <Link to="/contact" class="header_text">Contact</Link>
-          <Link to="/login" class="home_login_button">Login</Link>
+          <nav>
+          <div class='logo'></div>
+            <ul class="menu-area">
+              <li><a href="/" class="header_text">Home</a></li>
+              <li><a href="/about" class="header_text">About</a></li>
+              <li><a href="/projects" class="header_text">Projects</a></li>
+              <li><a href="/contact" class="header_text">Contact</a></li>
+              <li><a href="/login" class="header_text">Login</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     );
