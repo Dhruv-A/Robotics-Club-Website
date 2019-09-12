@@ -29,6 +29,7 @@ class Home extends Component {
     return (
       <div>
 
+
         <section class="home_section home_section_bg align-items-centre">
           <Header />
           <br></br><br></br><br></br><br></br><br></br>
