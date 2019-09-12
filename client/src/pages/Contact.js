@@ -18,7 +18,20 @@ class Contact extends Component {
     return (
       <div>
         <Header />
-        <div>Name: {this.props.name}</div>
+        <section class="contact_section">
+          <div class="contact_container">
+            <h class="contact_smalltitle">Contact us</h>
+            <br></br><br></br>
+            <h class="contact_title">Timmy Huang</h>
+            <h class="contact_smalltitle">CEO</h>
+            <div class="contact-info">
+            Phone: 0412 345 678<br></br>
+            Email: timmyme@gmail.com
+            </div>
+            <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+
+          </div>
+        </section>
       </div>
     );
   }
