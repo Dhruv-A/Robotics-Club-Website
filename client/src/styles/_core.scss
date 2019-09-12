@@ -17,7 +17,14 @@ a.button {
     appearance: button;
 
     text-decoration: none;
-    color: initial;
+    background-color: #60a9f7; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .test_div {
