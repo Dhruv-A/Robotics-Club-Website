@@ -7,7 +7,6 @@ class Header extends Component {
       <div>
         <div class="header">
           <nav>
-          <div class='logo'></div>
             <ul class="menu-area">
               <li><a href="/" class="header_text">Home</a></li>
               <li><a href="/about" class="header_text">About</a></li>
