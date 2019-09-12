@@ -6,6 +6,7 @@ import { connect } from 'react-redux';
 import * as User from '../actions/User';
 
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 import './Home.scss';
 
@@ -19,6 +20,7 @@ class About extends Component {
       <div>
         <Header />
         <div>Name: {this.props.name}</div>
+        <Footer />
       </div>
     );
   }

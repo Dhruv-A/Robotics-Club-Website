@@ -28,6 +28,10 @@ a.button {
   padding: 20px 40px 25px 40px;
 }
 
+.footer {
+  background-color: blue;
+}
+
 .logo {
   background-image: url("../static/roboticsLogo.png");
 }
@@ -200,7 +204,7 @@ nav:after {
   float: left;
   margin-left: 20px;
   background-color: #FFDDDD;
-  border-style:  solid;
+  border-style:  none;
   border-radius: 20px;
   border-color: red;
 }
@@ -221,7 +225,7 @@ nav:after {
   float: left;
   background-color: #DDDDFF;
   margin-left: 40px;
-  border-style:  solid;
+  border-style: none;
   border-radius: 20px;
   border-color: blue;
 }
@@ -242,7 +246,7 @@ nav:after {
   float: left;
   margin-left: 40px;
   background-color: #DDFFDD;
-  border-style:  solid;
+  border-style: none;
   border-radius: 20px;
   border-color: green;
 }
@@ -271,14 +275,12 @@ nav:after {
 .login_section {
   position: relative;
   z-index: 1;
-  height: 455px;
+  height: 700px;
 }
 
 .login_bg {
   background-image: url("../static/makerspaceRed.png");
-  padding: 50px;
-  padding-left: 400px;
-  padding-right: 400px;
+  padding: 0px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -287,6 +289,8 @@ nav:after {
 .login_box {
   padding: 50px;
   padding-top: 30px;
+  margin-left: 400px;
+  margin-right: 400px;
   background-color: #6699EE
 }
 
