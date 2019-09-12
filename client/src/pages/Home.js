@@ -31,6 +31,7 @@ class Home extends Component {
 
         <Header />
         <section class="home_section home_section_bg align-items-centre">
+          <br></br><br></br><br></br><br></br><br></br>
           <h class="home_title">Robotics Club</h>
           <br></br>
           <h class="home_subtitle">SBHS</h>
@@ -47,33 +48,38 @@ class Home extends Component {
             <br></br>
             <h class="about_subtitle">A hub for all things tech related</h>
             <br></br><br></br><br></br>
-            <button>About us</button>
+            <a href="/about" class="button">About Us</a>
             <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
           </div>
 
 
-          <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
         </section>
-        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+
+
         //Projects Section
-        <section>
+        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        <br></br>
+        <hr></hr>
+
+        <section class="projects_section">
+        <h class="about_title">Our Projects</h>
           <div class="container">
-            <h class="about_title">Our Projects</h>
+            <div class="projects_container_game">
+              <h>TEST</h>
+            </div>
+            <div class="projects_container_python">
+              <h>TEST</h>
+            </div>
+            <div class="projects_container_web">
+              <h>TEST</h>
+            </div>
           </div>
 
         </section>
 
-        //Contact Us
-        <section class="about_section">
-          <div class="container">
-            <h class="about_title">Contact Us</h>
-            //honestly i dont know if we should have a contact us section here
-            //we should be okay to just have like contact info on footer and link to contact page
-          </div>
-
-        </section>
       </div>
     );
   }

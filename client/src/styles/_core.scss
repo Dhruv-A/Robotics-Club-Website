@@ -6,12 +6,21 @@ $font-height: 1.5;
   padding: 10px;
 }
 
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
 .test_div {
   background-color: #4488EE;
 }
 
 .header {
-  background-color: red;
+  background-color: #BD4BF7;
   padding-bottom: 5px;
   padding-left: 20px;
 }
@@ -37,7 +46,7 @@ $font-height: 1.5;
   font-size: 80px;
   padding: 5px;
   background-color: #0099FF;
-  margin-left: 20px;
+  margin-left: 350px;
 
 }
 
@@ -46,7 +55,7 @@ $font-height: 1.5;
   font-size: 60px;
   padding: 5px;
   background-color: #0033FF;
-  margin-left: 20px;
+  margin-left: 530px;
   margin-bottom: 80px;
   margin-right: 0px;
 
@@ -107,6 +116,47 @@ $font-height: 1.5;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.projects_section {
+  position: relative;
+  z-index: 99;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.projects_container_game{
+  padding: 10px;
+  width: 25%;
+  height: 300px;
+  background: blue;
+  float: left;
+  margin-left: 50px;
+}
+
+.projects_game_bg {
+  background-image: url("../static/makerspaceRed.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects_container_python{
+  padding: 10px;
+  width: 25%;
+  height: 400px;
+  background: green;
+  float: left;
+  margin-left: 50px;
+}
+
+.projects_container_web{
+  padding: 10px;
+  width: 25%;
+  height: 300px;
+  background: red;
+  float: left;
+  margin-left: 50px;
 }
 
 .login_container{
