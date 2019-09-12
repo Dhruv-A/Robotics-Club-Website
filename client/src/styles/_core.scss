@@ -186,38 +186,75 @@ nav:after {
   background-position: left;
 }
 
-.projects_container_game{
+.projects_container_game {
   padding: 10px;
-  width: 25%;
+  width: 28%;
   height: 300px;
-  background: blue;
   float: left;
-  margin-left: 50px;
+  margin-left: 20px;
+  background-color: #FFDDDD;
+  border-style:  solid;
+  border-radius: 20px;
+  border-color: red;
 }
 
 .projects_game_bg {
-  background-image: url("../static/makerspaceRed.png");
+  background-image: url("../static/stationImg.png");
+  width: 344px;
+  height: 200px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.projects_container_python{
+.projects_container_python {
   padding: 10px;
-  width: 25%;
-  height: 400px;
-  background: green;
+  width: 28%;
+  height: 300px;
   float: left;
-  margin-left: 50px;
+  background-color: #DDDDFF;
+  margin-left: 40px;
+  border-style:  solid;
+  border-radius: 20px;
+  border-color: blue;
 }
 
-.projects_container_web{
+.projects_python_bg {
+    background-image: url("../static/pythonImg.png");
+    width: 344px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.projects_container_web {
   padding: 10px;
-  width: 25%;
+  width: 28%;
   height: 300px;
-  background: red;
   float: left;
-  margin-left: 50px;
+  margin-left: 40px;
+  background-color: #DDFFDD;
+  border-style:  solid;
+  border-radius: 20px;
+  border-color: green;
+}
+
+.projects_web_bg {
+  background-image: url("../static/WebDevImg.png");
+  width: 344px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects_container_title {
+  font-size: 30px;
+}
+
+.projects_container_subtitle {
+  font-size: 15px;
 }
 
 .login_container{

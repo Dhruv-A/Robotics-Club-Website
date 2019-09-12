@@ -37,7 +37,6 @@ class Home extends Component {
           <h class="home_subtitle">SBHS</h>
         </section>
 
-        //About Section
         <section class="about_section">
           <div class="about_section_img about_bg align-items-centre">
           </div>
@@ -58,23 +57,37 @@ class Home extends Component {
         </section>
 
 
-        //Projects Section
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-        <br></br>
+        <br></br><br></br>
         <hr></hr>
 
         <section class="projects_section">
         <h class="about_title">Our Projects</h>
           <div class="container">
             <div class="projects_container_game">
-              <h>TEST</h>
+              <div>
+                <h class="projects_container_title"><b>Game Development</b></h><br></br>
+                <h class="projects_container_subtitle">Learn to create games using Unity or Game Maker Studio.</h>
+              </div>
+              <div class="projects_game_bg">
+              </div>
             </div>
             <div class="projects_container_python">
-              <h>TEST</h>
+              <div>
+                <h class="projects_container_title"><b>Intro to Python</b></h><br></br>
+                <h class="projects_container_subtitle">Learn the basics of computer programming with Python!</h>
+              </div>
+              <div class="projects_python_bg">
+              </div>
             </div>
             <div class="projects_container_web">
-              <h>TEST</h>
+              <div>
+                <h class="projects_container_title"><b>Intro to Web Dev</b></h><br></br>
+                <h class="projects_container_subtitle">Learn to create you own websites using HTML, CSS and JS!</h>
+              </div>
+              <div class="projects_web_bg">
+              </div>
             </div>
           </div>
 
