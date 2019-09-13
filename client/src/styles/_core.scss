@@ -2,15 +2,149 @@ $font-family: 'Proxima Nova', "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, 
 $font-height: 1.5;
 
 //new stuff that i have used from other thing
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 10px;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    background-color: #60a9f7; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.test_div {
+  background-color: #4488EE;
+}
+
+.header {
+  padding: 20px 40px 25px 40px;
+}
+
+.footer {
+  background-color: blue;
+}
+
+.WIP {
+  font-size: 120px;
+}
+
+.footer_title {
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.logo {
+  background-image: url("../static/roboticsLogo.png");
+}
+
+.menu-area li a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 25px;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.menu-area li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav {
+  position: relative;
+  padding: 15px 30px 12px 30px;
+  text-align: right;
+  z-index: 1;
+  background: #333;
+  margin: 0 auto;
+  width: calc(100% - 60px);
+}
+
+nav:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 100%;
+  border-top: 10px solid #333;
+  border-right: 10px solid #333;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+nav:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 100%;
+  border-top: 10px solid #333;
+  border-left: 10px solid #333;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.menu-area li a:hover{
+  background: tomato;
+  color: #fff;
+
+}
+
+.header_text {
+  font-size: 25px;
+}
+
+.home_login_button {
+  text-align: right;
+  font-size: 25px;
+  margin-left: 790px;
+}
 
 .home_section {
   position: relative;
   z-index: 1;
-  height: 900px;
+  height: 600px;
+}
+
+.home_title {
+  color: white;
+  font-size: 80px;
+  padding: 5px;
+  margin-left: 350px;
+
+}
+
+.home_subtitle {
+  color: white;
+  font-size: 60px;
+  padding: 5px;
+  margin-left: 530px;
+  margin-bottom: 80px;
+  margin-right: 0px;
+
 }
 
 .home_section_bg {
-  background-image: url("../static/city.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../static/sackville-makerspace.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,6 +155,217 @@ $font-height: 1.5;
   z-index: 99;
   background-repeat: no-repeat;
   background-position: left;
+  padding: 60px;
+}
+
+.about_section_img {
+  position: relative;
+  z-index: 1;
+  height: 100px;
+  float: right;
+}
+
+.about_smalltitle {
+  color: blue;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.about_title {
+  color: black;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.about_subtitle {
+  color: black;
+  font-size: 20px;
+  padding: 40px;
+}
+
+.about_container {
+  margin-top: 60px;
+  padding: 10px;
+  float: left;
+}
+
+.about_bg {
+  background-image: url("../static/makerspaceVert.JPG");
+  width: 300px;
+  height: 300px;
+  padding: 100px;
+  margin-left: 000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects_title {
+  color: black;
+  font-size: 40px;
+  padding: 20px;
+  margin-left: 480px;
+}
+
+.projects_section {
+  position: relative;
+  z-index: 99;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.projects_container_game {
+  padding: 10px;
+  width: 28%;
+  height: 300px;
+  float: left;
+  margin-left: 20px;
+  background-color: #FFDDDD;
+  border-style:  none;
+  border-radius: 20px;
+  border-color: red;
+}
+
+.projects_game_bg {
+  background-image: url("../static/stationImg.png");
+  width: 344px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects_container_python {
+  padding: 10px;
+  width: 28%;
+  height: 300px;
+  float: left;
+  background-color: #DDDDFF;
+  margin-left: 40px;
+  border-style: none;
+  border-radius: 20px;
+  border-color: blue;
+}
+
+.projects_python_bg {
+    background-image: url("../static/pythonImg.png");
+    width: 344px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.projects_container_web {
+  padding: 10px;
+  width: 28%;
+  height: 300px;
+  float: left;
+  margin-left: 40px;
+  background-color: #DDFFDD;
+  border-style: none;
+  border-radius: 20px;
+  border-color: green;
+}
+
+.projects_web_bg {
+  background-image: url("../static/WebDevImg.png");
+  width: 344px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects_container_title {
+  font-size: 30px;
+}
+
+.projects_container_subtitle {
+  font-size: 15px;
+}
+
+.contact_section {
+  position: relative;
+  z-index: 99;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 60px;
+}
+
+.contact_container {
+  margin-top: 60px;
+  padding: 10px;
+  float: left;
+}
+
+.contact_title {
+  color: black;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.contact_smalltitle {
+  color: blue;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.contact-info {
+  margin: 40px;
+  font-size: 20px;
+}
+
+
+.login_container{
+  padding: 100px;
+}
+
+.login_section {
+  position: relative;
+  z-index: 1;
+  height: 700px;
+}
+
+.login_bg {
+  background-image: url("../static/makerspaceRed.png");
+  padding: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login_box {
+  padding: 50px;
+  padding-top: 30px;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: #6699EE
+}
+
+.login_title {
+  text-align: center;
+  margin-left: 125px;
+  font-size: 40px;
+}
+
+.login_subtitle {
+  text-align: center;
+  margin-left: 90px;
+  font-size: 20px;
+}
+
+.login_button {
+  margin-left: 320px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
 .section_padding {
