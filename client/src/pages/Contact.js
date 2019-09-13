@@ -24,7 +24,7 @@ class Contact extends Component {
             <h class="contact_smalltitle">Contact us</h>
             <br></br><br></br>
             <h class="contact_title">Timmy Huang</h>
-            <h class="contact_smalltitle">CEO</h>
+            <h class="contact_smalltitle"></h>
             <div class="contact-info">
             Phone: 0412 345 678<br></br>
             Email: timmyme@gmail.com
@@ -33,7 +33,10 @@ class Contact extends Component {
 
           </div>
         </section>
-
+        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br><br></br><br></br><br></br>
+        <Footer />
       </div>
     );
   }

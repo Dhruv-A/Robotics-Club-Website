@@ -19,7 +19,7 @@ class Projects extends Component {
     return (
       <div>
         <Header />
-        <div>Name: {this.props.name}</div>
+        <div class="WIP">WORK IN PROGRESS</div>
         <Footer />
       </div>
     );
